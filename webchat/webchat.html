@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>webchat</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+<script id="test" type="text/javascript" src="entry.js" data-main="main.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script> 
+</head>
+<body>
+<div class="container" style="height:100%;">
+<div class="online-info"><font id="online-state">&nbsp;</font></div>
+<div class="message-panel rounded">
+<div class="message-content">
+</div>
+
+<form class="form-inline">
+    <textarea class="rounded" id="input-message" disabled="disabled"></textarea>
+	<button type="button" class="btn btn-primary" id="btn-send" onclick="javascript:void(0)" disabled="disabled">发送</button>
+</form>
+
+</div>
+</div>
+</body>
+</html>
